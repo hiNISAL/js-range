@@ -1,0 +1,41 @@
+{
+  "name": "js-range",
+  "version": "1.0.1",
+  "description": "Python's range function for javascript",
+  "main": "release/js-range.min.js",
+  "scripts": {
+    "build:minify": "cross-env NODE_ENV=production MINIFY=true rollup -c",
+    "build:std": "cross-env NODE_ENV=production MINIFY=false rollup -c",
+    "build:esm": "cross-env NODE_ENV=production MINIFY=false rollup -c rollup.config.esm.js",
+    "dev": "cross-env NODE_ENV=development MINIFY=false rollup -c -w",
+    "build": "npm run build:minify && npm run build:std && npm run build:esm",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiNISAL/js-range.git"
+  },
+  "keywords": [
+    "range",
+    "python"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "cross-env": "^5.1.6",
+    "rollup": "^0.60.1",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-sass": "^0.9.1",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^4.0.0"
+  },
+  "author": "NISAL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiNISAL/js-range/issues"
+  },
+  "homepage": "https://github.com/hiNISAL/js-range#readme"
+}
