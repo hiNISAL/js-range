@@ -2,6 +2,8 @@
 
 Python's range function for javascript.
 
+`range(start, end, step)`
+
 ## Install
 
 ``` shell
@@ -34,6 +36,18 @@ const jrange = require('jrange');
 
 const list = jrange(1, 100, 2);
 ```
+
+## arguments
+
+/ | default | required
+-|-|-
+start | 0 | no |
+end | / | yes |
+step | 1 | no |
+
+`range(10)` -> `range(0, 10, 1)`
+
+`range(1, 10)` -> `range(1, 10, 1)`
 
 ## different with python
 
