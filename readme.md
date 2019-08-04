@@ -1,11 +1,11 @@
-# js-range
+# jrange
 
 Python's range function for javascript.
 
 ## Install
 
 ``` shell
-npm i js-range -S
+npm i jrange -S
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm i js-range -S
 - in browser
 
 ``` html
-<script src="js-range.js"></script>
+<script src="jrange.js"></script>
 <script>
   const list = range(10);
 </script>
@@ -22,22 +22,22 @@ npm i js-range -S
 - esm
 
 ``` js
-import jsRange from 'jsRange/release/js-range.esm.js';
+import jrange from 'jrange/release/jrange.esm.js';
 
-const list = jsRange(10, 1, -1);
+const list = jrange(10, 1, -1);
 ```
 
 - CommonJS
 
 ``` js
-const jsRange = require('js-range');
+const jrange = require('jrange');
 
-const list = jsRange(1, 100, 2);
+const list = jrange(1, 100, 2);
 ```
 
 ## different with python
 
-- In python, range function will return `Range Class`, `js-range` will return `Array`.
+- In python, range function will return `Range Class`, `jrange` will return `Array`.
 
 python
 
@@ -53,12 +53,12 @@ list = list(rng)
 javascript
 
 ``` js
-const list = jsRange(0, 10)
+const list = jrange(0, 10)
 
 console.log(Array.isArray(list)) // true
 ```
 
-- In python, if set the `zero` to step, python will throw error, `js-range` will return empty Array.
+- In python, if set the `zero` to step, python will throw error, `jrange` will return empty Array.
 
 python
 

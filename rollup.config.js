@@ -10,9 +10,9 @@ const minify = process.env.MINIFY;
 const config = {
   input: 'src/index.js',
   output: {
-    file: 'release/js-range.js',
+    file: 'release/jrange.js',
     format: 'umd',
-    name: 'jsRange'
+    name: 'jrange'
   },
   plugins: []
 };
@@ -34,10 +34,10 @@ if (isDev) {
   
 } else {
   if (minify === 'true') {
-    config.output.file = 'release/js-range.min.js';
+    config.output.file = 'release/jrange.min.js';
     config.plugins.push(uglify.uglify());
   } else {
-    config.output.file = 'release/js-range.js';
+    config.output.file = 'release/jrange.js';
   }
 
   config.plugins.push(

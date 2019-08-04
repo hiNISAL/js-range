@@ -1,9 +1,9 @@
 const config = {
   input: 'src/index.js',
   output: {
-    file: 'release/js-range.esm.js',
+    file: 'release/jrange.esm.js',
     format: 'es',
-    name: 'jsRange'
+    name: 'jrange'
   }
 };
 

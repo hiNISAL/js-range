@@ -1,8 +1,8 @@
 {
-  "name": "js-range",
+  "name": "jrange",
   "version": "1.0.1",
   "description": "Python's range function for javascript",
-  "main": "release/js-range.min.js",
+  "main": "release/jrange.min.js",
   "scripts": {
     "build:minify": "cross-env NODE_ENV=production MINIFY=true rollup -c",
     "build:std": "cross-env NODE_ENV=production MINIFY=false rollup -c",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiNISAL/js-range.git"
+    "url": "git+https://github.com/hiNISAL/jrange.git"
   },
   "keywords": [
     "range",
@@ -35,7 +35,7 @@
   "author": "NISAL",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hiNISAL/js-range/issues"
+    "url": "https://github.com/hiNISAL/jrange/issues"
   },
-  "homepage": "https://github.com/hiNISAL/js-range#readme"
+  "homepage": "https://github.com/hiNISAL/jrange#readme"
 }
