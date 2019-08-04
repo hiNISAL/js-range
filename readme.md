@@ -17,7 +17,7 @@ npm i jrange -S
 ``` html
 <script src="jrange.js"></script>
 <script>
-  const list = range(10);
+  const list = jrange(10);
 </script>
 ```
 
@@ -32,9 +32,9 @@ const list = jrange(10, 1, -1);
 - CommonJS
 
 ``` js
-const jrange = require('jrange');
+const range = require('jrange'); // rename to range
 
-const list = jrange(1, 100, 2);
+const list = range(1, 100, 2);
 ```
 
 ## arguments

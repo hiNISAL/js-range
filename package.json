@@ -1,6 +1,6 @@
 {
   "name": "jrange",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Python's range function for javascript",
   "main": "release/jrange.min.js",
   "scripts": {
