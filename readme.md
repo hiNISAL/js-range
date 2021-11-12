@@ -1,4 +1,11 @@
-# jrange
+# [jrange](https://github.com/hiNISAL/jrange)
+[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hiNISAL/jrange/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/hiNISAL/jrange.svg?branch=master)](https://travis-ci.org/hiNISAL/jrange)
+[![Coveralls](https://img.shields.io/coveralls/hiNISAL/jrange.svg)](https://coveralls.io/github/hiNISAL/jrange)
+[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/jrange)
+[![NPM downloads](http://img.shields.io/npm/dm/jrange.svg?style=flat-square)](http://www.npmtrends.com/jrange)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/hiNISAL/jrange.svg)](http://isitmaintained.com/project/hiNISAL/jrange "Percentage of issues still open")
 
 Python's range function for javascript.
 
@@ -24,7 +31,7 @@ npm i jrange -S
 - esm
 
 ``` js
-import jrange from 'jrange/release/jrange.esm.js';
+import jrange from 'jrange';
 
 const list = jrange(10, 1, -1);
 ```
