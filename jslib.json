@@ -1,0 +1,11 @@
+{
+    "name": "jrange",
+    "npmname": "jrange",
+    "umdname": "jrange",
+    "username": "hiNISAL",
+    "type": "ts",
+    "module": "umd,esm,commonjs",
+    "test": "mocha",
+    "lang": "en",
+    "version": "1.6.0"
+}
