@@ -1,5 +1,5 @@
 /*!
- * jrange 1.1.1 (https://github.com/hiNISAL/jrange)
+ * jrange 1.1.2 (https://github.com/hiNISAL/jrange)
  * API https://github.com/hiNISAL/jrange/blob/master/doc/api.md
  * Copyright 2017-2021 hiNISAL. All Rights Reserved
  * Licensed under MIT (https://github.com/hiNISAL/jrange/blob/master/LICENSE)
