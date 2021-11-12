@@ -1,11 +1,9 @@
 # [jrange](https://github.com/hiNISAL/jrange)
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hiNISAL/jrange/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/hiNISAL/jrange.svg?branch=master)](https://travis-ci.org/hiNISAL/jrange)
 [![Coveralls](https://img.shields.io/coveralls/hiNISAL/jrange.svg)](https://coveralls.io/github/hiNISAL/jrange)
-[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/jrange)
+[![npm](https://img.shields.io/badge/npm-1.1.4-green.svg)](https://www.npmjs.com/package/jrange)
 [![NPM downloads](http://img.shields.io/npm/dm/jrange.svg?style=flat-square)](http://www.npmtrends.com/jrange)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/hiNISAL/jrange.svg)](http://isitmaintained.com/project/hiNISAL/jrange "Percentage of issues still open")
 
 Python's range function for javascript.
 
