@@ -2,7 +2,6 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hiNISAL/jrange/blob/master/LICENSE)
 [![Coveralls](https://img.shields.io/coveralls/hiNISAL/jrange.svg)](https://coveralls.io/github/hiNISAL/jrange)
-[![npm](https://img.shields.io/badge/npm-1.1.4-green.svg)](https://www.npmjs.com/package/jrange)
 [![NPM downloads](http://img.shields.io/npm/dm/jrange.svg?style=flat-square)](http://www.npmtrends.com/jrange)
 
 Python's range function for javascript.
