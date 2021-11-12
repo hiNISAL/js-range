@@ -1,5 +1,5 @@
 # [jrange](https://github.com/hiNISAL/jrange)
-[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
+
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hiNISAL/jrange/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/hiNISAL/jrange.svg?branch=master)](https://travis-ci.org/hiNISAL/jrange)
 [![Coveralls](https://img.shields.io/coveralls/hiNISAL/jrange.svg)](https://coveralls.io/github/hiNISAL/jrange)
