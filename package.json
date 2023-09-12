@@ -3,8 +3,8 @@
   "version": "1.2.0",
   "description": "Python's range function for javascript",
   "main": "dist/jrange.umd.js",
-  "jsnext:main": "dist/index.es.js",
-  "module": "dist/index.es.js",
+  "jsnext:main": "dist/jrange.es.js",
+  "module": "dist/jrange.es.js",
   "types": "types/jrange.d.ts",
   "exports": {
     ".": {
