@@ -5,7 +5,7 @@
   "main": "dist/jrange.umd.js",
   "jsnext:main": "dist/jrange.es.js",
   "module": "dist/jrange.es.js",
-  "types": "types/jrange.d.ts",
+  "types": "dist/jrange.d.ts",
   "exports": {
     ".": {
       "import": "./dist/jrange.es.js",
