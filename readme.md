@@ -4,7 +4,7 @@
 [![Coveralls](https://img.shields.io/coveralls/hiNISAL/jrange.svg)](https://coveralls.io/github/hiNISAL/jrange)
 [![NPM downloads](http://img.shields.io/npm/dm/jrange.svg?style=flat-square)](http://www.npmtrends.com/jrange)
 
-Python's range function for javascript.
+The range function of Python implemented using JavaScript.
 
 `range(start, end, step)`
 
@@ -55,7 +55,7 @@ step | 1 | no |
 
 ## different with python
 
-- In python, range function will return `Range Class`, `jrange` will return `Array`.
+- In Python, the range function returns a `Range Class`, while jrange returns an `Array`.
 
 python
 
@@ -76,7 +76,7 @@ const list = jrange(0, 10)
 console.log(Array.isArray(list)) // true
 ```
 
-- In python, if set the `zero` to step, python will throw error, `jrange` will return empty Array.
+- In Python, if the step is zero, the range function will throw an exception, while jrange will return an empty array.
 
 python
 
