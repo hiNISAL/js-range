@@ -1,6 +1,6 @@
 {
   "name": "jrange",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Python's range function for javascript",
   "main": "dist/jrange.umd.js",
   "jsnext:main": "dist/jrange.es.js",
