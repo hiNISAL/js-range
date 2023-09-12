@@ -19,7 +19,7 @@ npm i jrange -S
 - in browser
 
 ``` html
-<script src="jrange.js"></script>
+<script src="/dist/jrange.umd.js"></script>
 <script>
   const list = jrange(10);
 </script>
