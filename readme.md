@@ -89,5 +89,5 @@ range(1, 10, 0)
 javascript
 
 ``` js
-jrange(1, 10, 0) // return []
+jrange(1, 10, 0); // return []
 ```

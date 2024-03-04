@@ -1,3 +1,11 @@
+/**
+ * jrange
+ * range function of Python implemented using JavaScript.
+ * @number start
+ * @number end
+ * @number step
+ * @returns number[]
+ */
 export default function (start?: number, end?: number, step: number = 1): number[] {
   if (arguments.length === 0) {
     return [];
